@@ -44,8 +44,11 @@ header .logo{
     float: left;
     margin-right: 30px;
 }
+header .logo img{
+    height: 50px;
+}
 header #nav{
-    margin-top: 30px;
+    margin-top: 15px;
     float: left;
 }
 header #nav ul li , header ul.right li{
@@ -54,7 +57,7 @@ header #nav ul li , header ul.right li{
 }
 header #nav ul li a , header ul.right li a{
     color: #777777;
-    padding: 12px;
+    padding: 18px;
     transition: all 0.2s ease 0s;
 }
 #nav ul li a:hover , header ul.right li a:hover{
@@ -63,7 +66,7 @@ header #nav ul li a , header ul.right li a{
 }
 header ul.right{
     float: right;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 /* Portfolio Section */
 section.portfolio .portfolio-title h2{
